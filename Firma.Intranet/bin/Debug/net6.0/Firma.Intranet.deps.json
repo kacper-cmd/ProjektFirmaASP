@@ -2351,7 +2351,9 @@
       },
       "Firma.Data/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.14"
+          "Microsoft.EntityFrameworkCore": "6.0.14",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.14",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14"
         },
         "runtime": {
           "Firma.Data.dll": {}
