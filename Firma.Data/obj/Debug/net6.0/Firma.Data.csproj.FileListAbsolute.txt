@@ -1,0 +1,12 @@
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\bin\Debug\net6.0\Firma.Data.deps.json
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\bin\Debug\net6.0\Firma.Data.dll
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\bin\Debug\net6.0\Firma.Data.pdb
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\Firma.Data.csproj.AssemblyReference.cache
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\Firma.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\Firma.Data.AssemblyInfoInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\Firma.Data.AssemblyInfo.cs
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\Firma.Data.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\Firma.Data.dll
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\refint\Firma.Data.dll
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\Firma.Data.pdb
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Data\obj\Debug\net6.0\ref\Firma.Data.dll
