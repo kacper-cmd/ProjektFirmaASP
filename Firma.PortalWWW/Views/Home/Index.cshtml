@@ -1,11 +1,13 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Firma.Data.Data.CMS.Strona
+@*tu nie mam ienume po wyswitlam tylko 1 sostrone*@
+@{
+    ViewData["Title"] = Model.LinkTytul;//z bazy danych pobierz link tutyl
 }
 
-<h1 class="header center orange-text">Sklep firmy </h1>
+<h1 class="header center orange-text">@Model.Tytul </h1>
 <div class="row center">
-    <h5 class="header col s12 light">Witamy w sklepie</h5>
+    <h5 class="header col s12 light">@Model.Tresc</h5>
 </div>
-<div class="row center">
+@*<div class="row center">
     <a href="http://onet.pl" id="download-button" class="btn-large waves-effect waves-light orange">Rozpocznij</a>
-</div>
+</div>*@

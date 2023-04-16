@@ -1,0 +1,10 @@
+﻿@model Firma.Data.Data.CMS.Aktualnosc
+@*tu nie mam ienume po wyswitlam tylko 1 sostrone*@
+@{
+    ViewData["Title"] = Model.LinkTytul;//z bazy danych pobierz link tutyl
+}
+
+<h1 class="header center orange-text">Aktualnosc: @Model.Tytul </h1>
+<div class="row center">
+    <h5 class="header col s12 light">@Model.Tresc</h5>
+</div>
