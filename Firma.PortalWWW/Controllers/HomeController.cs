@@ -1,6 +1,8 @@
 ﻿using Firma.Data.Data;
+using Firma.Data.Data.CMS;
 using Firma.PortalWWW.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace Firma.PortalWWW.Controllers
@@ -15,21 +17,62 @@ namespace Firma.PortalWWW.Controllers
             _context = context;
         }
 
-        public IActionResult Index(int? id)//to jest id strony ktora kliknieta
+        public async Task<IActionResult> Index(int? id)//to jest id strony ktora kliknieta
         {
             //viewbag to taki listonosz ktory przenosi dane miedzy kontrolerem a widokiem modelstrony to nazwa zmiennej 
-            ViewBag.ModelStrony =
-                (
-                    from strona in _context.Strona
-                    orderby strona.Pozycja
-                    select strona
-                ).ToList();
-            ViewBag.ModelAktualnosci =
-               (
-                   from aktualnosc in _context.Aktualnosc
-                   orderby aktualnosc.Pozycja
-                   select aktualnosc
-               ).ToList();
+            //ViewBag.ModelStrony =
+            //    (
+            //        from strona in _context.Strona
+            //        orderby strona.Pozycja
+            //        select strona
+            //    ).ToList();
+            //ViewBag.ModelAktualnosci =
+            //   (
+            //       from aktualnosc in _context.Aktualnosc
+            //       orderby aktualnosc.Pozycja
+            //       select aktualnosc
+            //   ).ToList();
+            //lub asynchronicznie
+            var strony = await (
+                from strona in _context.Strona
+                orderby strona.Pozycja
+                select strona
+                ).ToListAsync();
+            var aktualnosci = await (
+               from aktualnosc in _context.Aktualnosc
+               orderby aktualnosc.Pozycja
+               select aktualnosc
+               ).ToListAsync();//zamiast aktulnosci u ciebie ciekawe oferty
+            ViewBag.ModelStrony = strony;
+            ViewBag.ModelAktualnosci = aktualnosci;//edytutuj views-shared layoucshtml i przekaz do partial view viewbaga z aktualnosciami
+                                                   // ViewBag.footerData = new Tuple<IEnumerable<Strona>, IEnumerable<Aktualnosc>>(strony, aktualnosci);//stwruktura wieloobiektowa
+
+            ViewBag.DodatkoweInformacje =
+             await  (
+                   from DodatkoweInformacje in _context.DodatkoweInformacje
+                   orderby DodatkoweInformacje.Pozycja
+                   select DodatkoweInformacje
+               ).ToListAsync();
+            ViewBag.Partnerzy =
+            await (
+                  from Partnerzy in _context.Partner
+                  orderby Partnerzy.Pozycja
+                  select Partnerzy
+              ).ToListAsync();
+
+           // ViewBag.Partnerzy =
+           //await (
+           //        from partner in _context.Partner
+           //        orderby partner.Pozycja
+           //        select partner
+           //    ).ToListAsync();
+            //ViewBag.ModelParametry =
+            //   (
+            //     from parametr in _context.Parametry
+            //     orderby parametr.Pozycja
+            //     select parametr
+            //   ).ToList();//to zle
+
             //przy pierwszym uruchomieniu jeszcze nic nie kliknieto to bedziemy wyswietlac pierwsza strone
             if (id == null)
             {
@@ -37,8 +80,8 @@ namespace Firma.PortalWWW.Controllers
             }
             //wyszukujemy w bazie danych strone o danym kliknietym id lub piersza strone w przypdadku pierwszego uruchomienia
             //znaleziona strone przekazujemy do widoku
-            var item = _context.Strona.Find(id);
-            return View(item);
+            var item = await _context.Strona.FindAsync(id);
+            return View(item);//edytuj layout i do partial biew przekaz viewbag//POTEM FO VIEWS hOME
         }
 
 

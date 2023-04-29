@@ -629,3 +629,4 @@ C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Intranet\obj\Debug\net6.0\Fir
 C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Intranet\obj\Debug\net6.0\ref\Firma.Intranet.dll
 C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Intranet\bin\Debug\net6.0\Firma.Data.dll
 C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Intranet\bin\Debug\net6.0\Firma.Data.pdb
+C:\Users\kacpe\OneDrive\Pulpit\Zajecia\Firma\Firma.Intranet\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

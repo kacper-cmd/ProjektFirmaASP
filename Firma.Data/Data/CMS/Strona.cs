@@ -24,7 +24,7 @@ namespace Firma.Data.Data.CMS
         public string Tytul { get; set; }
         [Display(Name = "Treść")]
         [Column(TypeName = "nvarchar(MAX)")]//jakiego typu to pole bedzie w bazie danych
-        public string Tresc { get; set; }
+        public string Tresc { get; set; }//zeby mozna edytowac znacznikami html https://www.tiny.cloud/
         [Required(ErrorMessage = "Pozycja jest wymagana")]
         [Display(Name = "Pozycja Wyświetlania")]
         public int Pozycja { get; set; }

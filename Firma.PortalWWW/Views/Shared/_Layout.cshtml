@@ -15,8 +15,12 @@
 </head>
 <body>
     <nav class="light-blue lighten-1" role="navigation">
+        
         @await Html.PartialAsync("Odnosniki", (IEnumerable<Firma.Data.Data.CMS.Strona>)  ViewBag.ModelStrony))
-      @*  <div class="nav-wrapper container">
+      @*utworz w lub w innym folderze partial view o nazwie Odnosniki i wklej kod z stad do pliku Odnosniki.cshtml
+         
+      *@
+            @*  <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo">Logo</a>
             <ul class="right hide-on-med-and-down">
                 <li>@Html.ActionLink("Strona glowna","Index","Home")</li>
@@ -43,7 +47,9 @@
 
             <!--   Icon Section   -->
             @await Html.PartialAsync("Aktualnosci",(IEnumerable<Firma.Data.Data.CMS.Aktualnosc>) ViewBag.ModelAktualnosci )
-           @* <div class="row">
+            @*PPm na w views shared (lub w innym folderze) add razor view Aktualnosci jako partial view z tego przekopiuj i tam wklej edutuje view share-aktualnosci cshtml i zmien ten widok zeby uzywal bazy danych*@
+
+            @* <div class="row">
                 <div class="col s12 m4">
                     <div class="icon-block">
                         <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
@@ -72,9 +78,12 @@
                 </div>
             </div>*@
 
+@*            @await Html.PartialAsync("Footer",(Tuple<IEnumerable<Firma.Data.Data.CMS.Strona>,IEnumerable<Firma.Data.Data.CMS.Aktualnosc>>) ViewBag.footerData )
+*@
         </div>
         <br><br>
     </div>
+@*    @await Html.PartialAsync("Parametry", (IEnumerable<Firma.Data.Data.CMS.Parametry>) ViewBag.ModelParametrow))*@
 
     <footer class="page-footer orange">
         <div class="container">
@@ -82,10 +91,14 @@
                 <div class="col l6 s12">
                     <h5 class="white-text">WSB_NLU</h5>
                     <p class="grey-text text-lighten-4">Projekt realizoany w ramach kursu WSB-NLU</p>
-
-
                 </div>
-                <div class="col l3 s12">
+
+                @await Html.PartialAsync("DodatkoweInformacje", (IEnumerable<Firma.Data.Data.CMS.DodatkoweInformacje>) ViewBag.DodatkoweInformacje)
+                @await Html.PartialAsync("Partnerzy", (IEnumerable<Firma.Data.Data.CMS.Partnerzy>) ViewBag.Partnerzy)
+
+
+
+               @* <div class="col l3 s12">
                     <h5 class="white-text">Dodatkowe informacje</h5>
                     <ul>
                         <li>@Html.ActionLink("Polityka prywatnosci","Privacy","Home")</li>
@@ -102,7 +115,7 @@
                         <li><a class="white-text" href="#!">Link 3</a></li>
                         <li><a class="white-text" href="#!">Link 4</a></li>
                     </ul>
-                </div>
+                </div>*@
             </div>
         </div>
         <div class="footer-copyright">

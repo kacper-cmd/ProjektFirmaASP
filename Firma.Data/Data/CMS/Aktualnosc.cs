@@ -27,6 +27,7 @@ namespace Firma.Data.Data.CMS
         [Required(ErrorMessage = "Pozycja jest wymagana")]
         [Display(Name = "Pozycja Wyświetlania")]
         public int Pozycja { get; set; }
+        //moge tez przechowywac tutaj ikonke nazwaicony 
         //data dodania, zdjecia, czy aktywne, kto dodal, kiedy dodal, kto edytowal, kiedy edytowal 7 pól zasada 7s
         //kto zmodyfikowal kiedy zmodifikowal 7s na klasde= i dziedziczyc 
         //kiedy usunal kiedy usunac 

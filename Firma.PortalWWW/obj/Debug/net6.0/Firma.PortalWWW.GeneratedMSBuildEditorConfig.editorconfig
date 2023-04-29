@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/DodatkoweInformacje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXRrb3dlSW5mb3JtYWNqZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,8 +40,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Partnerzy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnp5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Shared/Aktualnosci.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFrdHVhbG5vc2NpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Shared/DodatkoweInformacje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERvZGF0a293ZUluZm9ybWFjamUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Shared/Error.cshtml]
@@ -46,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Shared/Odnosniki.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9kbm9zbmlraS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Shared/Partnerzy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRuZXJ6eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.PortalWWW/Views/Shared/_ValidationScriptsPartial.cshtml]

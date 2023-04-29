@@ -51,6 +51,88 @@ namespace Firma.Data.Migrations
                     b.ToTable("Aktualnosc");
                 });
 
+            modelBuilder.Entity("Firma.Data.Data.CMS.DodatkoweInformacje", b =>
+                {
+                    b.Property<int>("IdDodatkowychInformacji")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDodatkowychInformacji"), 1L, 1);
+
+                    b.Property<string>("LinkTytul")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<int>("Pozycja")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Tresc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(MAX)");
+
+                    b.Property<string>("Tytul")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("IdDodatkowychInformacji");
+
+                    b.ToTable("DodatkoweInformacje");
+                });
+
+            modelBuilder.Entity("Firma.Data.Data.CMS.Parametry", b =>
+                {
+                    b.Property<int>("IdParametru")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdParametru"), 1L, 1);
+
+                    b.Property<string>("Opis")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(MAX)");
+
+                    b.Property<string>("Wartosc")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.HasKey("IdParametru");
+
+                    b.ToTable("Parametr");
+                });
+
+            modelBuilder.Entity("Firma.Data.Data.CMS.Partnerzy", b =>
+                {
+                    b.Property<int>("IdPartnerzy")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPartnerzy"), 1L, 1);
+
+                    b.Property<string>("LinkTytul")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<int>("Pozycja")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Tresc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(MAX)");
+
+                    b.Property<string>("Tytul")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("IdPartnerzy");
+
+                    b.ToTable("Partner");
+                });
+
             modelBuilder.Entity("Firma.Data.Data.CMS.Strona", b =>
                 {
                     b.Property<int>("IdStrony")

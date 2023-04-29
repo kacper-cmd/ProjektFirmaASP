@@ -40,12 +40,72 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/DodatkoweInformacje/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXRrb3dlSW5mb3JtYWNqZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/DodatkoweInformacje/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXRrb3dlSW5mb3JtYWNqZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/DodatkoweInformacje/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXRrb3dlSW5mb3JtYWNqZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/DodatkoweInformacje/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXRrb3dlSW5mb3JtYWNqZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/DodatkoweInformacje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXRrb3dlSW5mb3JtYWNqZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Parametry/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJ5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Parametry/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJ5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Parametry/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJ5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Parametry/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJ5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Parametry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJ5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Partnerzy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnp5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Partnerzy/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnp5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Partnerzy/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnp5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Partnerzy/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnp5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Partnerzy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnp5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kacpe/OneDrive/Pulpit/Zajecia/Firma/Firma.Intranet/Views/Shared/Error.cshtml]
