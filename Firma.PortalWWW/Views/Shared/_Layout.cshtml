@@ -1,0 +1,145 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>@ViewData["Title"] - KA</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+@*    <link href="~/lib/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="~/lib/materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+<body>
+    <nav class="light-blue lighten-1" role="navigation">
+        
+        @await Html.PartialAsync("Odnosniki", (IEnumerable<Firma.Data.Data.CMS.Strona>)  ViewBag.ModelStrony))
+      @*utworz w lub w innym folderze partial view o nazwie Odnosniki i wklej kod z stad do pliku Odnosniki.cshtml
+         
+      *@
+            @*  <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <ul class="right hide-on-med-and-down">
+                <li>@Html.ActionLink("Strona glowna","Index","Home")</li>
+                <li>@Html.ActionLink("O Firmie","OFirmie","Home")</li>
+                <li>@Html.ActionLink("Kontakt","Kontakt","Home")</li>
+                <li></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>*@
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            @await Html.PartialAsync("Aktualnosci",(IEnumerable<Firma.Data.Data.CMS.Aktualnosc>) ViewBag.ModelAktualnosci )
+            @*PPm na w views shared (lub w innym folderze) add razor view Aktualnosci jako partial view z tego przekopiuj i tam wklej edutuje view share-aktualnosci cshtml i zmien ten widok zeby uzywal bazy danych*@
+
+            @* <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+                        <h5 class="center">O firmie</h5>
+
+                        <p class="light">Tu teks o firmie</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">O towarach</h5>
+
+                        <p class="light">Tu bedzie tekst o towarach.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">o sklepie</h5>
+
+                        <p class="light">Tu bedzie tekst o sklepie.</p>
+                    </div>
+                </div>
+            </div>*@
+
+@*            @await Html.PartialAsync("Footer",(Tuple<IEnumerable<Firma.Data.Data.CMS.Strona>,IEnumerable<Firma.Data.Data.CMS.Aktualnosc>>) ViewBag.footerData )
+*@
+        </div>
+        <br><br>
+    </div>
+@*    @await Html.PartialAsync("Parametry", (IEnumerable<Firma.Data.Data.CMS.Parametry>) ViewBag.ModelParametrow))*@
+
+    <footer class="page-footer orange">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">WSB_NLU</h5>
+                    <p class="grey-text text-lighten-4">Projekt realizoany w ramach kursu WSB-NLU</p>
+                </div>
+
+                @await Html.PartialAsync("DodatkoweInformacje", (IEnumerable<Firma.Data.Data.CMS.DodatkoweInformacje>) ViewBag.DodatkoweInformacje)
+                @await Html.PartialAsync("Partnerzy", (IEnumerable<Firma.Data.Data.CMS.Partnerzy>) ViewBag.Partnerzy)
+
+
+
+               @* <div class="col l3 s12">
+                    <h5 class="white-text">Dodatkowe informacje</h5>
+                    <ul>
+                        <li>@Html.ActionLink("Polityka prywatnosci","Privacy","Home")</li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>*@
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">WSB-NLU</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+   
+    <script src="~/lib/materialize/js/materialize.min.js"></script>
+    <script src="~/lib/materialize/js/materialize.js"></script>
+    <script src="js/init.js"></script>
+ 
+</body>
+</html>

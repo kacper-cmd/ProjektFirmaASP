@@ -1,0 +1,15 @@
+﻿@model Firma.Data.Data.CMS.Strona
+@*stony maja dir xmirnisv dane do wyswietlenia z bazy danych*@
+@*tu nie mam ienume po wyswitlam tylko 1 sostrone*@
+@{
+    ViewData["Title"] = Model.LinkTytul;//z bazy danych pobierz link tutyl
+}
+
+<h1 class="header center orange-text">@Model.Tytul </h1>
+<div class="row center">
+    <h5 class="header col s12 light">@Model.Tresc</h5>
+    @*tesc tak zeby mozna edytowac znacznikami html https://www.tiny.cloud/*@
+</div>
+@*<div class="row center">
+    <a href="http://onet.pl" id="download-button" class="btn-large waves-effect waves-light orange">Rozpocznij</a>
+</div>*@

@@ -1,0 +1,38 @@
+﻿@model Firma.PortalWWW.Models.Sklep.DaneDoKoszyka
+@{
+    ViewData["Title"] = "Koszyk";
+    Layout = "~/Views/Shared/_KoszykLayout.cshtml";
+}
+<div>
+    Twoj koszyk
+</div>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nazwa towaru</th>
+                <th>Cena</th>
+                <th>Ilosc</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var element in Model.ElementyKoszyka)
+            {
+                <tr>
+                    <td>
+                        @element.Towar.Nazwa
+                    </td>
+                    <td>
+                        @String.Format("{0:F}",element.Towar.Cena)
+                    </td>
+                    <td>
+                         @String.Format("{0:F}",element.Ilosc)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div>
+        Wartosc koszyka:  @String.Format("{0:F}",Model.Razem)
+    </div>
+</div>

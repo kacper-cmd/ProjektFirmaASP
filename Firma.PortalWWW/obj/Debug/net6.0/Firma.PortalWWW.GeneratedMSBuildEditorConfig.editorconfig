@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Firma.PortalWWW
+build_property.RootNamespace = Firma.PortalWWW
+build_property.ProjectDir = C:\Users\kacpe\Desktop\ZajeciaSEM6\ProjektFirmaASP\Firma.PortalWWW\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\kacpe\Desktop\ZajeciaSEM6\ProjektFirmaASP\Firma.PortalWWW
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Aktualnosc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWt0dWFsbm9zY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/DodatkoweInformacje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kYXRrb3dlSW5mb3JtYWNqZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Home/Kontakt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxLb250YWt0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Home/OFirmie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPRmlybWllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Koszyk/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29zenlrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Partnerzy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnp5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/Aktualnosci.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFrdHVhbG5vc2NpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/DodatkoweInformacje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERvZGF0a293ZUluZm9ybWFjamUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/Odnosniki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9kbm9zbmlraS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/Partnerzy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRuZXJ6eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/RodzajeMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJvZHphamVNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/_KoszykLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Lb3N6eWtMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/_SklepLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ta2xlcExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Sklep/Components/RodzajeMenuComponent/RodzajeMenuComponent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsZXBcQ29tcG9uZW50c1xSb2R6YWplTWVudUNvbXBvbmVudFxSb2R6YWplTWVudUNvbXBvbmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Sklep/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsZXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Sklep/Szczegoly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsZXBcU3pjemVnb2x5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kacpe/Desktop/ZajeciaSEM6/ProjektFirmaASP/Firma.PortalWWW/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2v2s0s6gal
